@@ -1,0 +1,42 @@
+/* Make video cover entire screen */
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Center text */
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  text-shadow: 2px 2px 8px black;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background: #ff3399;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px black;
+}
+
+button:hover {
+  background: #ff66b2;
+}
